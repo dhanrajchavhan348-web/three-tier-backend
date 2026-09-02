@@ -1,7 +1,7 @@
 services:
 
   backend:
-    image: YOUR_DOCKERHUB_USERNAME/three-tier-backend:${IMAGE_TAG}
+    image: dhanrajchavhan348/three-tier-backend:${IMAGE_TAG}
 
     container_name: three-tier-backend
 
