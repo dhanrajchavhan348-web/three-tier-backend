@@ -123,7 +123,7 @@ mvn package -DskipTests
 Jenkins creates a Docker image.
 
 ```bash
-docker build -t USERNAME/three-tier-backend:BUILD_NUMBER .
+docker build -t dhanrajchavhan348/three-tier-backend:BUILD_NUMBER .
 ```
 
 ### 7. Docker Hub Push
@@ -131,7 +131,7 @@ docker build -t USERNAME/three-tier-backend:BUILD_NUMBER .
 The Docker image is pushed to Docker Hub.
 
 ```bash
-docker push USERNAME/three-tier-backend:BUILD_NUMBER
+docker push dhanrajchavhan348/three-tier-backend:BUILD_NUMBER
 ```
 
 ### 8. Deploy to AWS EC2
@@ -139,12 +139,6 @@ docker push USERNAME/three-tier-backend:BUILD_NUMBER
 Jenkins connects to the AWS EC2 server using SSH.
 
 The server pulls the Docker image and starts the application using Docker Compose.
-
-```bash
-docker pull USERNAME/three-tier-backend:BUILD_NUMBER
-
-docker compose up -d --force-recreate
-```
 
 ## 🐳 Docker
 
@@ -172,12 +166,6 @@ The EC2 server runs:
 Docker
 Docker Compose
 Spring Boot Container
-```
-
-Application URL:
-
-```text
-http://YOUR_EC2_PUBLIC_IP:8080
 ```
 
 ## 🔐 Security
@@ -238,12 +226,6 @@ docker build -t three-tier-backend:test .
 
 ```bash
 docker run -d -p 8080:8080 --name three-tier-backend three-tier-backend:test
-```
-
-### Access the application
-
-```text
-http://localhost:8080
 ```
 
 ## 📈 Benefits of the Project
