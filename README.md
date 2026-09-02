@@ -207,7 +207,7 @@ secret keys
 ### Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/three-tier-backend.git
+git clone https://github.com/dhanrajchavhan348-web/three-tier-backend.git
 ```
 
 ### Go to the project directory
