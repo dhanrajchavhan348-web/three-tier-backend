@@ -190,14 +190,6 @@ access keys
 secret keys
 ```
 
-## 🚀 How to Run Locally
-
-### Clone the repository
-
-```bash
-https://github.com/dhanrajchavhan348-web/three-tier-backend.git
-```
-
 ## 📈 Benefits of the Project
 
 * Automated build and testing
