@@ -198,36 +198,6 @@ secret keys
 https://github.com/dhanrajchavhan348-web/three-tier-backend.git
 ```
 
-### Go to the project directory
-
-```bash
-cd three-tier-backend
-```
-
-### Run Maven tests
-
-```bash
-mvn clean test
-```
-
-### Build the application
-
-```bash
-mvn package -DskipTests
-```
-
-### Build Docker image
-
-```bash
-docker build -t three-tier-backend:test .
-```
-
-### Run Docker container
-
-```bash
-docker run -d -p 8080:8080 --name three-tier-backend three-tier-backend:test
-```
-
 ## 📈 Benefits of the Project
 
 * Automated build and testing
