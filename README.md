@@ -195,7 +195,7 @@ secret keys
 ### Clone the repository
 
 ```bash
-git clone https://github.com/dhanrajchavhan348-web/three-tier-backend.git
+https://github.com/dhanrajchavhan348-web/3-tier-App-using-JENKINS.git
 ```
 
 ### Go to the project directory
